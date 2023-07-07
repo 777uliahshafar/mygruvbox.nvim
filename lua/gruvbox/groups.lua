@@ -74,7 +74,7 @@ M.setup = function()
     GruvboxPurpleUnderline = { undercurl = config.undercurl, sp = colors.purple },
     GruvboxAquaUnderline = { undercurl = config.undercurl, sp = colors.aqua },
     GruvboxOrangeUnderline = { undercurl = config.undercurl, sp = colors.orange },
-    Normal = config.transparent_mode and { fg = colors.fg2, bg = nil } or { fg = colors.fg2, bg = colors.bg0 },
+    Normal = config.transparent_mode and { fg = colors.fg5, bg = nil } or { fg = colors.fg5, bg = colors.bg0 },
     NormalFloat = config.transparent_mode and { fg = colors.fg1, bg = nil } or { fg = colors.fg1, bg = colors.bg1 },
     NormalNC = config.dim_inactive and { fg = colors.fg0, bg = colors.bg1 } or { link = "Normal" },
     CursorLine = { bg = nil },
