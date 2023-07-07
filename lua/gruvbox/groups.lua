@@ -77,7 +77,7 @@ M.setup = function()
     Normal = config.transparent_mode and { fg = colors.fg2, bg = nil } or { fg = colors.fg2, bg = colors.bg0 },
     NormalFloat = config.transparent_mode and { fg = colors.fg1, bg = nil } or { fg = colors.fg1, bg = colors.bg1 },
     NormalNC = config.dim_inactive and { fg = colors.fg0, bg = colors.bg1 } or { link = "Normal" },
-    CursorLine = { bg = nil },
+    CursorLine = { fg= colors.bg4, bg = nil },
     CursorColumn = { link = "CursorLine" },
     TabLineFill = { fg = colors.bg4, bg = colors.bg1, reverse = config.invert_tabline },
     TabLineSel = { fg = colors.green, bg = colors.bg1, reverse = config.invert_tabline },
