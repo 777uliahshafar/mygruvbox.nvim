@@ -85,7 +85,7 @@ M.setup = function()
     MatchParen = { bg = colors.bg3, bold = config.bold },
     ColorColumn = { bg = colors.bg1 },
     Conceal = { fg = colors.blue },
-    CursorLineNr = { fg = colors.fg4, bg = nil },
+    CursorLineNr = { fg = colors.bg2, bg = nil },
     NonText = { link = "GruvboxBg2" },
     SpecialKey = { link = "GruvboxFg4" },
     Visual = { bg = colors.bg3, reverse = config.invert_selection },
