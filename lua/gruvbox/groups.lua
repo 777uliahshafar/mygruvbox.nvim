@@ -515,11 +515,11 @@ M.setup = function()
     CocInfoHighlight = { link = "GruvboxBlueUnderline" },
     CocHintHighlight = { link = "GruvboxAquaUnderline" },
     -- telescope.nvim
-    TelescopeNormal = config.transparent_mode and { fg = colors.fg1, bg = nil } or { fg = colors.fg1, bg = colors.bg1 },
+    TelescopeNormal = config.transparent_mode and { fg = colors.fg5, bg = nil } or { fg = colors.fg5, bg = colors.bg6 },
     TelescopeSelection = { link = "GruvboxOrangeBold" },
     TelescopeSelectionCaret = { link = "GruvboxRed" },
     TelescopeMultiSelection = { link = "GruvboxGray" },
-    TelescopeBorder = { link = "TelescopeNormal" },
+    TelescopeBorder = { fg = colors.bg6 },
     TelescopePromptBorder = { link = "TelescopeNormal" },
     TelescopeResultsBorder = { link = "TelescopeNormal" },
     TelescopePreviewBorder = { link = "TelescopeNormal" },
