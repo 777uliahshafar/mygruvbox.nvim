@@ -104,7 +104,7 @@ M.setup = function()
     WinBar = { fg = colors.fg4, bg = colors.bg0 },
     WinBarNC = { fg = colors.fg3, bg = colors.bg1 },
     WinSeparator = config.transparent_mode and { fg = colors.bg3, bg = nil } or { fg = colors.bg3, bg = colors.bg0 },
-    WildMenu = { fg = colors.blue, bg = colors.bg2, bold = config.bold },
+    WildMenu = { fg = colors.blue, bg = colors.bg5, bold = config.bold },
     Directory = { link = "GruvboxBlueBold" },
     Title = { link = "GruvboxGreenBold" },
     ErrorMsg = { fg = colors.bg0, bg = colors.red, bold = config.bold },
@@ -515,7 +515,7 @@ M.setup = function()
     CocInfoHighlight = { link = "GruvboxBlueUnderline" },
     CocHintHighlight = { link = "GruvboxAquaUnderline" },
     -- telescope.nvim
-    TelescopeNormal = config.transparent_mode and { fg = colors.fg5, bg = nil } or { fg = colors.fg5, bg = colors.fg6 },
+    TelescopeNormal = config.transparent_mode and { fg = colors.fg5, bg = nil } or { fg = colors.fg5, bg = colors.bg6 },
     TelescopeSelection = { link = "GruvboxOrangeBold" },
     TelescopeSelectionCaret = { link = "GruvboxRed" },
     TelescopeMultiSelection = { link = "GruvboxGray" },
