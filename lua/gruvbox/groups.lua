@@ -104,7 +104,7 @@ M.setup = function()
     WinBar = { fg = colors.fg4, bg = colors.bg0 },
     WinBarNC = { fg = colors.fg3, bg = colors.bg1 },
     WinSeparator = config.transparent_mode and { fg = colors.bg3, bg = nil } or { fg = colors.bg3, bg = colors.bg0 },
-    WildMenu = { fg = colors.blue, bg = colors.bg5, bold = config.bold },
+    WildMenu = { fg = colors.fg6, bg = colors.bg6, bold = config.bold },
     Directory = { link = "GruvboxBlueBold" },
     Title = { link = "GruvboxGreenBold" },
     ErrorMsg = { fg = colors.bg0, bg = colors.red, bold = config.bold },
