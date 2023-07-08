@@ -520,7 +520,7 @@ M.setup = function()
     TelescopeSelectionCaret = { link = "GruvboxRed" },
     TelescopeMultiSelection = { link = "GruvboxGray" },
     TelescopeBorder = { link = "TelescopeNormal" },
-    TelescopePromptBorder = { fg = colors.bg6 },
+    TelescopePromptBorder = { fg = colors.bg6, bg= colors.bg6 },
     TelescopeResultsBorder = { link = "TelescopePromptBorder" },
     TelescopePreviewBorder = { link = "TelescopePromptBorder" },
     TelescopeMatching = { link = "GruvboxBlue" },
