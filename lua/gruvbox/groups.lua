@@ -33,12 +33,14 @@ M.setup = function()
     GruvboxFg2 = { fg = colors.fg2 },
     GruvboxFg3 = { fg = colors.fg3 },
     GruvboxFg4 = { fg = colors.fg4 },
+    GruvboxFg5 = { fg = colors.fg5 },
     GruvboxGray = { fg = colors.gray },
     GruvboxBg0 = { fg = colors.bg0 },
     GruvboxBg1 = { fg = colors.bg1 },
     GruvboxBg2 = { fg = colors.bg2 },
     GruvboxBg3 = { fg = colors.bg3 },
     GruvboxBg4 = { fg = colors.bg4 },
+    GruvboxBg5 = { fg = colors.bg5 },
     GruvboxRed = { fg = colors.red },
     GruvboxRedBold = { fg = colors.red, bold = config.bold },
     GruvboxGreen = { fg = colors.green },
@@ -511,7 +513,7 @@ M.setup = function()
     CocInfoHighlight = { link = "GruvboxBlueUnderline" },
     CocHintHighlight = { link = "GruvboxAquaUnderline" },
     -- telescope.nvim
-    TelescopeNormal = { link = "GruvboxFg1" },
+    TelescopeNormal = { fg = colors.fg6, bg = colors.bg6 }
     TelescopeSelection = { link = "GruvboxOrangeBold" },
     TelescopeSelectionCaret = { link = "GruvboxRed" },
     TelescopeMultiSelection = { link = "GruvboxGray" },
