@@ -513,7 +513,7 @@ M.setup = function()
     CocInfoHighlight = { link = "GruvboxBlueUnderline" },
     CocHintHighlight = { link = "GruvboxAquaUnderline" },
     -- telescope.nvim
-    TelescopeNormal = { fg = colors.fg6, bg = colors.bg6 }
+    TelescopeNormal = { fg = colors.fg6, bg = colors.bg6 },
     TelescopeSelection = { link = "GruvboxOrangeBold" },
     TelescopeSelectionCaret = { link = "GruvboxRed" },
     TelescopeMultiSelection = { link = "GruvboxGray" },
