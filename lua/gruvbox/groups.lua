@@ -100,7 +100,7 @@ M.setup = function()
     QuickFixLine = { fg = colors.bg0, bg = colors.yellow, bold = config.bold },
     Underlined = { fg = colors.blue, underline = config.underline },
     StatusLine = { fg = colors.fg6, bg = colors.bg6, reverse = config.inverse },
-    StatusLineNC = { fg = colors.bg1, bg = colors.fg4, reverse = config.inverse },
+    StatusLineNC = { fg = colors.fg6, bg = colors.bg6, reverse = config.inverse },
     WinBar = { fg = colors.fg4, bg = colors.bg0 },
     WinBarNC = { fg = colors.fg3, bg = colors.bg1 },
     WinSeparator = config.transparent_mode and { fg = colors.bg3, bg = nil } or { fg = colors.bg3, bg = colors.bg0 },
