@@ -35,6 +35,7 @@ M.setup = function()
     GruvboxFg4 = { fg = colors.fg4 },
     GruvboxFg5 = { fg = colors.fg5 },
     GruvboxFg6 = { fg = colors.fg6 },
+    GruvboxFg7 = { fg = colors.fg7 },
     GruvboxGray = { fg = colors.gray },
     GruvboxBg0 = { fg = colors.bg0 },
     GruvboxBg1 = { fg = colors.bg1 },
@@ -43,6 +44,7 @@ M.setup = function()
     GruvboxBg4 = { fg = colors.bg4 },
     GruvboxBg5 = { fg = colors.bg5 },
     GruvboxBg6 = { fg = colors.bg6 },
+    GruvboxBg7 = { fg = colors.bg7 },
     GruvboxRed = { fg = colors.red },
     GruvboxRedBold = { fg = colors.red, bold = config.bold },
     GruvboxGreen = { fg = colors.green },
@@ -121,7 +123,7 @@ M.setup = function()
     iCursor = { link = "Cursor" },
     lCursor = { link = "Cursor" },
     Special = { link = "GruvboxOrange" },
-    Comment = { fg = colors.gray, italic = config.italic.comments },
+    Comment = { fg = "GruvboxFg7", italic = config.italic.comments },
     -- Todo         anything that needs extra attention; mostly the
     --              keywords TODO FIXME and XXX
     Todo = { fg = colors.bg0, bg = colors.yellow, bold = config.bold, italic = config.italic.comments },
