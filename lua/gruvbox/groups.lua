@@ -200,7 +200,7 @@ M.setup = function()
     -- Misc
     --
     -- @comment               ; line and block comments
-    ["@comment"] = { link = "Comment" },
+    ["@comment"] = { link = "operator" },
     -- @comment.documentation ; comments documenting code
     -- @none                  ; completely disable the highlight
     ["@none"] = { bg = "NONE", fg = "NONE" },
