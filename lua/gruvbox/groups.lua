@@ -123,7 +123,7 @@ M.setup = function()
     iCursor = { link = "Cursor" },
     lCursor = { link = "Cursor" },
     Special = { link = "GruvboxOrange" },
-    Comment = { fg = colors.fg7, bold= config.bold, italic = config.italic.comments },
+    Comment = { fg = colors.fg7, bold = config.bold },
     -- Todo         anything that needs extra attention; mostly the
     --              keywords TODO FIXME and XXX
     Todo = { fg = colors.bg0, bg = colors.yellow, bold = config.bold, italic = config.italic.comments },
