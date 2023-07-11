@@ -7,7 +7,7 @@ M.config = {
   bold = true,
   italic = {
     strings = true,
-    comments = false,
+    comments = true,
     operators = false,
     folds = true,
   },
