@@ -92,7 +92,7 @@ M.setup = function()
     TabLine = { link = "TabLineFill" },
     MatchParen = { bg = colors.bg3, bold = config.bold },
     ColorColumn = { bg = colors.bg1 },
-    Conceal = { fg = colors.orange },
+    Conceal = { fg = colors.red },
     CursorLineNr = { fg = colors.fg5, bg = nil },
     NonText = { link = "GruvboxBg2" },
     SpecialKey = { link = "GruvboxFg4" },
