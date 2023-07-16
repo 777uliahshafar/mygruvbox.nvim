@@ -63,7 +63,7 @@ M.setup = function()
     GruvboxOrangeBold = { fg = colors.orange, bold = config.bold },
     GruvboxRedSign = config.transparent_mode and { fg = colors.red, reverse = config.invert_signs }
       or { fg = colors.red, bg = colors.bg1, reverse = config.invert_signs },
-    GruvboxGreenSign = config.transparent_mode and { fg = colors.green, reverse = config.invert_signs }
+    GruvboxGreenSign = config.transparent_mode and { fg = colors.green, bg=colors.bg0, reverse = config.invert_signs }
       or { fg = colors.green, bg = colors.bg1, reverse = config.invert_signs },
     GruvboxYellowSign = config.transparent_mode and { fg = colors.yellow, reverse = config.invert_signs }
       or { fg = colors.yellow, bg = colors.bg1, reverse = config.invert_signs },
