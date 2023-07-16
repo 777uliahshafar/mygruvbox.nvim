@@ -437,8 +437,10 @@ M.setup = function()
     gitcommitSelectedFile = { link = "GruvboxGreen" },
     gitcommitDiscardedFile = { link = "GruvboxRed" },
     -- gitsigns.nvim
-    GitSignsAdd = { link = "GruvboxGreenSign" },
-    GitSignsChange = { link = "GruvboxAquaSign" },
+    GitSignsAdd = config.transparent_mode and { fg = colors.fg4, reverse = config.invert_signs }
+      or { fg = colors.fg4, bg = colors.bg9, reverse = config.invert_signs },
+    GitSignsChange = config.transparent_mode and { fg = colors.fg4, reverse = config.invert_signs }
+      or { fg = colors.fg4, bg = colors.bg9, reverse = config.invert_signs },
     GitSignsDelete = { link = "GruvboxRedSign" },
     -- nvim-tree
     NvimTreeSymlink = { fg = colors.neutral_aqua },
