@@ -135,7 +135,7 @@ M.get_base_colors = function(bg, contrast)
       neutral_purple = p.neutral_purple,
       neutral_aqua = p.neutral_aqua,
       gray = p.gray,
-      sky = p.faded_blue,
+      savana = p.faded_green,
     },
   }
 
