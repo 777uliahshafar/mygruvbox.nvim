@@ -94,7 +94,7 @@ M.setup = function()
     ColorColumn = { bg = colors.bg1 },
     Conceal = { fg = colors.yellow },
     CursorLineNr = { fg = colors.fg5, bg = nil },
-    NonText = { link = "GruvboxFg4" },
+    NonText = { link = "GruvboxBg2" },
     SpecialKey = { link = "GruvboxFg4" },
     Visual = { bg = colors.bg3, reverse = config.invert_selection },
     VisualNOS = { link = "Visual" },
@@ -167,7 +167,7 @@ M.setup = function()
     SpellBad = { link = "GruvboxRedUnderline" },
     SpellLocal = { link = "GruvboxAquaUnderline" },
     SpellRare = { link = "GruvboxPurpleUnderline" },
-    Whitespace = { fg = colors.bg2 },
+    Whitespace = { fg = colors.fg4 },
     -- LSP Diagnostic
     DiagnosticError = { link = "GruvboxRed" },
     DiagnosticSignError = { link = "GruvboxRedSign" },
