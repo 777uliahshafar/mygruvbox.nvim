@@ -48,7 +48,7 @@ M.colors = {
   faded_aqua = "#427b58",
   faded_orange = "#af3a03",
   gray = "#928374",
-  dragon_gray= "#717C7C",
+  dragon_gray= "#938056",
 }
 
 M.get_base_colors = function(bg, contrast)
