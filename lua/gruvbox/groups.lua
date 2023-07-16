@@ -94,7 +94,7 @@ M.setup = function()
     ColorColumn = { bg = colors.bg1 },
     Conceal = { fg = colors.yellow },
     CursorLineNr = { fg = colors.fg5, bg = nil },
-    NonText = { link = "GruvboxBg2" },
+    NonText = { link = "GruvboxFg4" },
     SpecialKey = { link = "GruvboxFg4" },
     Visual = { bg = colors.bg3, reverse = config.invert_selection },
     VisualNOS = { link = "Visual" },
