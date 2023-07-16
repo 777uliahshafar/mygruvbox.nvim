@@ -439,7 +439,7 @@ M.setup = function()
     -- gitsigns.nvim
     GitSignsAdd = config.transparent_mode and { fg = colors.fg4, reverse = config.invert_signs }
       or { fg = colors.fg4, bg = colors.bg0, reverse = config.invert_signs},
-    GitSignsChange = { link = "GruvboxGray" },
+    GitSignsChange = { link = "GruvboxBlueSign" },
     GitSignsDelete = { link = "GruvboxRedSign" },
     -- nvim-tree
     NvimTreeSymlink = { fg = colors.neutral_aqua },
