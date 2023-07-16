@@ -54,7 +54,7 @@ M.setup = function()
     GruvboxYellow = { fg = colors.yellow },
     GruvboxYellowBold = { fg = colors.yellow, bold = config.bold },
     GruvboxBlue = { fg = colors.blue },
-    GruvboxSavana = { fg = colors.savana },
+    GruvboxDragon = { fg = colors.dragon },
     GruvboxBlueBold = { fg = colors.blue, bold = config.bold },
     GruvboxPurple = { fg = colors.purple },
     GruvboxPurpleBold = { fg = colors.purple, bold = config.bold },
@@ -440,7 +440,7 @@ M.setup = function()
     -- gitsigns.nvim
     GitSignsAdd = config.transparent_mode and { fg = colors.fg4, reverse = config.invert_signs }
       or { fg = colors.fg4, bg = colors.bg0, reverse = config.invert_signs},
-    GitSignsChange = { link = "GruvboxSavana" },
+    GitSignsChange = { link = "GruvboxDragon" },
     GitSignsDelete = { link = "GruvboxRedSign" },
     -- nvim-tree
     NvimTreeSymlink = { fg = colors.neutral_aqua },
