@@ -993,7 +993,7 @@ M.setup = function()
     TSRainbowCyan = { fg = colors.cyan },
 
     -- Marks
-    MarkSignHL = config.transparent_mode and {fg = colors.gray, bg = nil } or {fg = colors.gray, bg = colors.choco },
+    MarkSignHL = config.transparent_mode and {fg = colors.gray, bg = nil } or {fg = colors.bg0, bg = colors.choco },
     MarkSignNumHL = {fg = nil, bg = nil},
     
   }
