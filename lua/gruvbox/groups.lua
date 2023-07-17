@@ -118,7 +118,7 @@ M.setup = function()
     Question = { link = "GruvboxOrangeBold" },
     WarningMsg = { link = "GruvboxRedBold" },
     LineNr = { fg = colors.fg4 },
-    SignColumn = config.transparent_mode and { bg = nil } or { fg = colors.fg4, bg = nil },
+    SignColumn = config.transparent_mode and { bg = nil } or { bg = nil },
     Folded = { fg = colors.fg8, bg = colors.bg8, italic = config.italic.folds },
     FoldColumn = config.transparent_mode and { fg = colors.gray, bg = nil } or { fg = colors.gray, bg = colors.bg1 },
     Cursor = { reverse = config.inverse },
