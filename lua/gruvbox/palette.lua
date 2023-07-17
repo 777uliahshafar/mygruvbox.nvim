@@ -37,6 +37,7 @@ M.colors = {
   bright_purple = "#d3869b",
   bright_aqua = "#8ec07c",
   bright_orange = "#fe8019",
+  bright_choco ="#bdae93",
   neutral_red = "#cc241d",
   neutral_green = "#98971a",
   neutral_yellow = "#d79921",
@@ -51,8 +52,8 @@ M.colors = {
   faded_purple = "#8f3f71",
   faded_aqua = "#427b58",
   faded_orange = "#af3a03",
+  faded_choco= "#232526",
   gray = "#928374",
-  dragon_gray= "#7c6f64",
 }
 
 M.get_base_colors = function(bg, contrast)
@@ -100,6 +101,7 @@ M.get_base_colors = function(bg, contrast)
       purple = p.bright_purple,
       aqua = p.bright_aqua,
       orange = p.bright_orange,
+      choco = p.bright_choco,
       neutral_red = p.neutral_red,
       neutral_green = p.neutral_green,
       neutral_yellow = p.neutral_yellow,
@@ -107,7 +109,6 @@ M.get_base_colors = function(bg, contrast)
       neutral_purple = p.neutral_purple,
       neutral_aqua = p.neutral_aqua,
       gray = p.gray,
-      dragon = p.dragon_gray,
     },
     light = {
       bg0 = p.light0,
@@ -141,6 +142,7 @@ M.get_base_colors = function(bg, contrast)
       purple = p.faded_purple,
       aqua = p.faded_aqua,
       orange = p.faded_orange,
+      choco = p.faded_choco,
       neutral_red = p.neutral_red,
       neutral_green = p.neutral_green,
       neutral_yellow = p.neutral_yellow,
@@ -148,7 +150,6 @@ M.get_base_colors = function(bg, contrast)
       neutral_purple = p.neutral_purple,
       neutral_aqua = p.neutral_aqua,
       gray = p.gray,
-      dragon = p.dragon_gray,
     },
   }
 
