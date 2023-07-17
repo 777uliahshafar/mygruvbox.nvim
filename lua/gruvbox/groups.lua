@@ -993,6 +993,11 @@ M.setup = function()
     TSRainbowBlue = { fg = colors.blue },
     TSRainbowViolet = { fg = colors.purple },
     TSRainbowCyan = { fg = colors.cyan },
+
+    -- Marks
+    MarkSignHL = config.transparent_mode and {fg = colors.fg4, bg = nil } or {fg = colors.fg4, bg = colors.choco },
+    MarkSignNumHL = {fg = nil, bg = nil},
+    
   }
 
   for group, hl in pairs(config.overrides) do
