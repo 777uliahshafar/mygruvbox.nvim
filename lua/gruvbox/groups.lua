@@ -437,10 +437,8 @@ M.setup = function()
     gitcommitSelectedFile = { link = "GruvboxGreen" },
     gitcommitDiscardedFile = { link = "GruvboxRed" },
     -- gitsigns.nvim
-    GitSignsChange = config.transparent_mode and { fg = colors.fg10, reverse = config.invert_signs }
-      or { fg = colors.fg10, bg = colors.bg0, reverse = config.invert_signs},
-    GitSignsAdd = config.transparent_mode and { fg = colors.fg11, reverse = config.invert_signs }
-      or { fg = colors.fg11, bg = colors.bg0, reverse = config.invert_signs},
+    GitSignsAdd = { link = "GruvboxGreenSign" },
+    GitSignsChange = { link = "GruvboxAquaSign" },
     GitSignsDelete = { link = "GruvboxRedSign" },
     -- nvim-tree
     NvimTreeSymlink = { fg = colors.neutral_aqua },
@@ -995,7 +993,7 @@ M.setup = function()
     TSRainbowCyan = { fg = colors.cyan },
 
     -- Marks
-    MarkSignHL = config.transparent_mode and {fg = colors.fg4, bg = nil } or {fg = colors.fg4, bg = colors.choco },
+    MarkSignHL = config.transparent_mode and {fg = colors.gray, bg = nil } or {fg = colors.gray, bg = colors.choco },
     MarkSignNumHL = {fg = nil, bg = nil},
     
   }
