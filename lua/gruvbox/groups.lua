@@ -995,6 +995,9 @@ M.setup = function()
     -- Marks
     MarkSignHL = config.transparent_mode and {fg = colors.gray, bg = nil } or {fg = colors.fg7, bg = colors.choco },
     MarkSignNumHL = {fg = nil, bg = nil},
+
+    --Lazy plugin manager
+    LazyButton = config.transparent_mode and { bg = nil } or { bg = colors.bg1 },
     
   }
 
