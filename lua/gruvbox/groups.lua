@@ -76,6 +76,7 @@ M.setup = function()
     GruvboxOrangeSign = config.transparent_mode and { fg = colors.orange, reverse = config.invert_signs }
       or { fg = colors.orange, bg = colors.bg9, reverse = config.invert_signs },
     GruvboxRedUnderline = { undercurl = config.undercurl, bg = colors.red },
+    GruvboxPinkUnderline = { undercurl = config.undercurl, bg = colors.pink },
     GruvboxGreenUnderline = { undercurl = config.undercurl, bg = colors.green },
     GruvboxYellowUnderline = { undercurl = config.undercurl, bg = colors.yellow },
     GruvboxBlueUnderline = { undercurl = config.undercurl, bg = colors.blue },
@@ -164,7 +165,7 @@ M.setup = function()
     DiffChange = { fg = colors.aqua, bg = colors.bg0, reverse = config.inverse },
     DiffText = { fg = colors.yellow, bg = colors.bg0, reverse = config.inverse },
     SpellCap = { link = "GruvboxBlueUnderline" },
-    SpellBad = { link = "GruvboxRedSign" },
+    SpellBad = { link = "GruvboxPinkUnderline" },
     SpellLocal = { link = "GruvboxAquaUnderline" },
     SpellRare = { link = "GruvboxPurpleUnderline" },
     Whitespace = { fg = colors.fg4 },
