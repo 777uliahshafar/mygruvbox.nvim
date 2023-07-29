@@ -75,13 +75,13 @@ M.setup = function()
       or { fg = colors.aqua, bg = colors.bg9, reverse = config.invert_signs },
     GruvboxOrangeSign = config.transparent_mode and { fg = colors.orange, reverse = config.invert_signs }
       or { fg = colors.orange, bg = colors.bg9, reverse = config.invert_signs },
-    GruvboxRedUnderline = { undercurl = config.undercurl, sp = colors.red },
-    GruvboxGreenUnderline = { undercurl = config.undercurl, sp = colors.green },
-    GruvboxYellowUnderline = { undercurl = config.undercurl, sp = colors.yellow },
-    GruvboxBlueUnderline = { undercurl = config.undercurl, sp = colors.blue },
-    GruvboxPurpleUnderline = { undercurl = config.undercurl, sp = colors.purple },
-    GruvboxAquaUnderline = { undercurl = config.undercurl, sp = colors.aqua },
-    GruvboxOrangeUnderline = { undercurl = config.undercurl, sp = colors.orange },
+    GruvboxRedUnderline = { undercurl = config.undercurl, bg = colors.red },
+    GruvboxGreenUnderline = { undercurl = config.undercurl, bg = colors.green },
+    GruvboxYellowUnderline = { undercurl = config.undercurl, bg = colors.yellow },
+    GruvboxBlueUnderline = { undercurl = config.undercurl, bg = colors.blue },
+    GruvboxPurpleUnderline = { undercurl = config.undercurl, bg = colors.purple },
+    GruvboxAquaUnderline = { undercurl = config.undercurl, bg = colors.aqua },
+    GruvboxOrangeUnderline = { undercurl = config.undercurl, bg = colors.orange },
     Normal = config.transparent_mode and { fg = colors.fg5, bg = nil } or { fg = colors.fg5, bg = colors.bg0 },
     NormalFloat = config.transparent_mode and { fg = colors.fg1, bg = nil } or { fg = colors.fg1, bg = colors.bg1 },
     NormalNC = config.dim_inactive and { fg = colors.fg0, bg = colors.bg1 } or { link = "Normal" },
@@ -117,7 +117,7 @@ M.setup = function()
     Question = { link = "GruvboxOrangeBold" },
     WarningMsg = { link = "GruvboxRedBold" },
     LineNr = { fg = colors.fg4 },
-    SignColumn = config.transparent_mode and {fg = colors.fg4, bg = nil } or {fg = colors.fg4, bg = colors.choco },
+    SignColumn = config.transparent_mode and { fg = colors.fg4, bg = nil } or { fg = colors.fg4, bg = colors.choco },
     Folded = { fg = colors.fg8, bg = colors.bg8, italic = config.italic.folds },
     FoldColumn = config.transparent_mode and { fg = colors.gray, bg = nil } or { fg = colors.gray, bg = colors.bg1 },
     Cursor = { reverse = config.inverse },
@@ -524,8 +524,8 @@ M.setup = function()
     TelescopeSelectionCaret = { link = "GruvboxRed" },
     TelescopeMultiSelection = { link = "GruvboxGray" },
     TelescopeBorder = { link = "GruvboxOrangeBold" },
-    TelescopePromptBorder = { fg = colors.bg6, bg= colors.bg6 },
-    TelescopeResultsBorder = {link = "TelescopePromptBorder" },
+    TelescopePromptBorder = { fg = colors.bg6, bg = colors.bg6 },
+    TelescopeResultsBorder = { link = "TelescopePromptBorder" },
     TelescopePreviewBorder = { link = "TelescopePromptBorder" },
     TelescopeMatching = { link = "GruvboxBlue" },
     TelescopePromptPrefix = { link = "GruvboxRed" },
@@ -993,12 +993,11 @@ M.setup = function()
     TSRainbowCyan = { fg = colors.cyan },
 
     -- Marks
-    MarkSignHL = config.transparent_mode and {fg = colors.gray, bg = nil } or {fg = colors.fg7, bg = colors.choco },
-    MarkSignNumHL = {fg = nil, bg = nil},
+    MarkSignHL = config.transparent_mode and { fg = colors.gray, bg = nil } or { fg = colors.fg7, bg = colors.choco },
+    MarkSignNumHL = { fg = nil, bg = nil },
 
     --Lazy plugin manager
     LazyButton = config.transparent_mode and { bg = nil } or { bg = colors.bg1 },
-    
   }
 
   for group, hl in pairs(config.overrides) do
