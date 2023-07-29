@@ -62,19 +62,19 @@ M.setup = function()
     GruvboxOrange = { fg = colors.orange },
     GruvboxOrangeBold = { fg = colors.orange, bold = config.bold },
     GruvboxRedSign = config.transparent_mode and { fg = colors.red, reverse = config.invert_signs }
-      or { fg = colors.red, bg = colors.bg9, reverse = config.invert_signs },
+      or { fg = colors.red, bg = colors.choco, reverse = config.invert_signs },
     GruvboxGreenSign = config.transparent_mode and { fg = colors.green, reverse = config.invert_signs }
-      or { fg = colors.green, bg = colors.bg9, reverse = config.invert_signs },
+      or { fg = colors.green, bg = colors.choco, reverse = config.invert_signs },
     GruvboxYellowSign = config.transparent_mode and { fg = colors.yellow, reverse = config.invert_signs }
       or { fg = colors.yellow, bg = colors.choco, reverse = config.invert_signs },
     GruvboxBlueSign = config.transparent_mode and { fg = colors.blue, reverse = config.invert_signs }
-      or { fg = colors.blue, bg = colors.bg9, reverse = config.invert_signs },
+      or { fg = colors.blue, bg = colors.choco, reverse = config.invert_signs },
     GruvboxPurpleSign = config.transparent_mode and { fg = colors.purple, reverse = config.invert_signs }
-      or { fg = colors.purple, bg = colors.bg9, reverse = config.invert_signs },
+      or { fg = colors.purple, bg = colors.choco, reverse = config.invert_signs },
     GruvboxAquaSign = config.transparent_mode and { fg = colors.aqua, reverse = config.invert_signs }
-      or { fg = colors.aqua, bg = colors.bg9, reverse = config.invert_signs },
+      or { fg = colors.aqua, bg = colors.choco, reverse = config.invert_signs },
     GruvboxOrangeSign = config.transparent_mode and { fg = colors.orange, reverse = config.invert_signs }
-      or { fg = colors.orange, bg = colors.bg9, reverse = config.invert_signs },
+      or { fg = colors.orange, bg = colors.choco, reverse = config.invert_signs },
     GruvboxRedUnderline = { undercurl = config.undercurl, bg = colors.red },
     GruvboxGreenUnderline = { undercurl = config.undercurl, sp = colors.green },
     GruvboxYellowUnderline = { undercurl = config.undercurl, sp = colors.yellow },
