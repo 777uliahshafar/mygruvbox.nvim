@@ -164,7 +164,7 @@ M.setup = function()
     DiffChange = { fg = colors.aqua, bg = colors.bg0, reverse = config.inverse },
     DiffText = { fg = colors.yellow, bg = colors.bg0, reverse = config.inverse },
     SpellCap = { fg = colors.blue, bg = nil, bold = config.bold, reverse = config.invert_signs },
-    SpellBad = { fg = colors.red, bg = nil, bold = config.bold, reverse = config.invert_signs },
+    SpellBad = { fg = colors.red, bg = colors.choco, bold = config.bold, reverse = config.invert_signs },
     SpellLocal = { fg = colors.aqua, bg = nil, bold = config.bold, reverse = config.invert_signs },
     SpellRare = { fg = colors.purple, bg = nil, bold = config.bold, reverse = config.invert_signs },
     Whitespace = { fg = colors.fg4 },
