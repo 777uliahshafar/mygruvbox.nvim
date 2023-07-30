@@ -163,10 +163,10 @@ M.setup = function()
     DiffAdd = { fg = colors.green, bg = colors.bg0, reverse = config.inverse },
     DiffChange = { fg = colors.aqua, bg = colors.bg0, reverse = config.inverse },
     DiffText = { fg = colors.yellow, bg = colors.bg0, reverse = config.inverse },
-    SpellCap = { fg = colors.blue, bg = nil, reverse = config.invert_signs },
+    SpellCap = { fg = colors.blue, bg = nil, bold = config.bold, reverse = config.invert_signs },
     SpellBad = { fg = colors.red, bg = nil, bold = config.bold, reverse = config.invert_signs },
-    SpellLocal = { fg = colors.aqua, bg = nil, reverse = config.invert_signs },
-    SpellRare = { fg = colors.purple, bg = nil, reverse = config.invert_signs },
+    SpellLocal = { fg = colors.aqua, bg = nil, bold = config.bold, reverse = config.invert_signs },
+    SpellRare = { fg = colors.purple, bg = nil, bold = config.bold, reverse = config.invert_signs },
     Whitespace = { fg = colors.fg4 },
     -- LSP Diagnostic
     DiagnosticError = { link = "GruvboxRed" },
