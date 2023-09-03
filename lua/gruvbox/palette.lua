@@ -3,7 +3,7 @@ local M = {}
 
 M.colors = {
   dark0_hard = "#181616",
-  dark0 = "#1b1918",
+  dark0 = "#16161e",
   dark0_soft = "#272822",
   dark1 = "#1B1D1E",
   dark2 = "#fe8019",
