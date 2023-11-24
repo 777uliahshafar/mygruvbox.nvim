@@ -1004,6 +1004,7 @@ M.setup = function()
     texCmdEnv = { link = "GruvboxRed" },
     texCmd = { link = "GruvboxYellow" },
     texEnvArgName = { link = "GruvboxAqua" },
+    texCmdClass = { link = "GruvboxPurple" },
 
     texCmdTitle = { link = "texCmd" },
     texCmdItem = { link = "texCmd" },
