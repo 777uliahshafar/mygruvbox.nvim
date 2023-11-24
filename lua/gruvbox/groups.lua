@@ -1012,9 +1012,10 @@ M.setup = function()
     texCmdPart = { link = "texCmdEnv" },
     texCmdMath = { link = "texCmdEnv" },
     texOptEqual = { link = "texOptSep" },
-    texCmdBib = { link = "texOptSep" },
     texCmdAuthor = { link = "texCmdTitle" },
     texCmdInput = { link = "texCmdTitle" },
+    texCmdBib = { link = "texCmdClass" },
+    texCmdPackage = { link = "texCmdClass" },
   }
 
   for group, hl in pairs(config.overrides) do
