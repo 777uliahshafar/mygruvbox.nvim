@@ -1006,6 +1006,7 @@ M.setup = function()
     texEnvArgName = { link = "GruvboxAqua" },
     texCmdClass = { link = "GruvboxPurple" },
 
+    texFilesOpt = { link = "Normal" },
     texCmdTitle = { link = "texCmd" },
     texCmdItem = { link = "texCmd" },
     texCmdRef = { link = "texCmdEnv" },
@@ -1015,7 +1016,6 @@ M.setup = function()
     texCmdAuthor = { link = "texCmdTitle" },
     texCmdInput = { link = "texCmdTitle" },
     texCmdBib = { link = "texCmdClass" },
-    texCmdPackage = { link = "texCmdClass" },
   }
 
   for group, hl in pairs(config.overrides) do
