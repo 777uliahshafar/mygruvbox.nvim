@@ -1002,6 +1002,9 @@ M.setup = function()
     -- Tex syntax
     texOptSep = { link = "GruvboxBlue" },
     texOptEqual = { link = "GruvboxBlue" },
+    texCmdItem = { link = "GruvboxYellow" },
+    texCmdEnv = { link = "GruvboxRed" },
+    texCmd = { link = "GruvboxYellow" },
   }
 
   for group, hl in pairs(config.overrides) do
