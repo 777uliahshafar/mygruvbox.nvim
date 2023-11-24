@@ -1012,6 +1012,7 @@ M.setup = function()
     texCmdPart = { link = "texCmdEnv" },
     texCmdMath = { link = "texCmdEnv" },
     texOptEqual = { link = "texOptSep" },
+    texCmdBib = { link = "texOptSep" },
     texCmdAuthor = { link = "texCmdTitle" },
     texCmdInput = { link = "texCmdTitle" },
   }
