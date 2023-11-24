@@ -998,6 +998,10 @@ M.setup = function()
 
     --Lazy plugin manager
     LazyButton = config.transparent_mode and { bg = nil } or { bg = colors.bg1 },
+
+    -- Tex syntax
+    texOptSep = { link = "GruvboxBlue" },
+    texOptEqual = { link = "GruvboxBlue" },
   }
 
   for group, hl in pairs(config.overrides) do
