@@ -1002,7 +1002,7 @@ M.setup = function()
     -- Tex syntax
     texOptSep = { link = "GruvboxBlue" },
     texCmdEnv = { link = "GruvboxRed" },
-    texCmd = { link = "GruvboxYellow" },
+    texCmd = { link = "GruvboxGreen" },
     texEnvArgName = { link = "GruvboxAqua" },
     texCmdClass = { link = "GruvboxPurple" },
 
@@ -1016,6 +1016,7 @@ M.setup = function()
     texCmdAuthor = { link = "texCmdTitle" },
     texCmdInput = { link = "texCmdTitle" },
     texCmdBib = { link = "texCmdClass" },
+    texCmdType = { link = "texCmd" },
   }
 
   for group, hl in pairs(config.overrides) do
