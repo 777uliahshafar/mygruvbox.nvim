@@ -1006,12 +1006,12 @@ M.setup = function()
     texEnvArgName = { link = "GruvboxAqua" },
     texCmdClass = { link = "GruvboxPurple" },
 
-    texFilesArg = { link = "Normal" },
     texCmdTitle = { link = "texCmd" },
     texCmdItem = { link = "texCmd" },
     texCmdRef = { link = "texCmdEnv" },
     texCmdPart = { link = "texCmdEnv" },
     texCmdMath = { link = "texCmdEnv" },
+    texCmdPackage = { link = "texCmdEnv" },
     texOptEqual = { link = "texOptSep" },
     texCmdAuthor = { link = "texCmdTitle" },
     texCmdInput = { link = "texCmdTitle" },
