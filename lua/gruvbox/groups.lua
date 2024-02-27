@@ -119,7 +119,7 @@ M.setup = function()
     LineNr = { fg = colors.fg4 },
     SignColumn = config.transparent_mode and { fg = colors.fg4, bg = nil } or { fg = colors.fg4 },
     Folded = { fg = colors.fg5, bg = colors.bg10, italic = config.italic.folds },
-    FoldColumn = config.transparent_mode and { fg = colors.gray, bg = nil } or { fg = colors.gray, bg = colors.bg1 },
+    FoldColumn = config.transparent_mode and { fg = colors.gray, bg = nil } or { fg = colors.gray, bg = colors.bg10 },
     Cursor = { reverse = config.inverse },
     vCursor = { link = "Cursor" },
     iCursor = { link = "Cursor" },
