@@ -156,7 +156,7 @@ M.setup = function()
     Structure = { link = "GruvboxAqua" },
     Typedef = { link = "GruvboxYellow" },
     Pmenu = { fg = colors.fg1, bg = colors.bg1 },
-    PmenuSel = { fg = colors.bg1, bg = colors.blue, bold = config.bold },
+    PmenuSel = { fg = colors.bg1, bg = colors.blue },
     PmenuSbar = { bg = colors.bg1 },
     PmenuThumb = { bg = colors.bg4 },
     DiffDelete = { fg = colors.red, bg = colors.bg0, reverse = config.inverse },
