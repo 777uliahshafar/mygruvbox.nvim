@@ -167,8 +167,8 @@ M.setup = function()
     SpellBad = {
       fg = colors.fg5,
       bg = nil,
-      underline = config.underline,
-      reverse = config.invert_signs,
+      undercurl = config.undercurl,
+      sp = colors.yellow,
     },
     SpellLocal = { fg = colors.aqua, bg = nil, italic = config.italic.comments, reverse = config.invert_signs },
     SpellRare = { fg = colors.purple, bg = nil, reverse = config.invert_signs },
