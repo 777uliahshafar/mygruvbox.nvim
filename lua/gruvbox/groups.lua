@@ -1025,7 +1025,7 @@ M.setup = function()
 
     -- obsidian
     ObsidianBullet = { link = "texCmd" },
-    ObsidianRefText = { link = "texCmdEnv" },
+    ObsidianRefText = { link = "texOptSep" },
   }
 
   for group, hl in pairs(config.overrides) do
