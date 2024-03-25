@@ -1024,7 +1024,8 @@ M.setup = function()
     texCmdType = { link = "texCmd" },
 
     -- obsidian
-    ObsidianBullet = { link = "texCmd" },
+    ObsidianBullet = { link = "GruvboxOrange" },
+    ObsidianRightArrow = { link = "GruvboxOrange" },
     ObsidianRefText = { link = "texOptSep" },
   }
 
