@@ -1022,6 +1022,10 @@ M.setup = function()
     texCmdInput = { link = "texCmdTitle" },
     texCmdBib = { link = "texCmdClass" },
     texCmdType = { link = "texCmd" },
+
+    -- obsidian
+    ObsidianBullet = { link = "texCmd" },
+    ObsidianRefText = { link = "texCmdEnv" },
   }
 
   for group, hl in pairs(config.overrides) do
