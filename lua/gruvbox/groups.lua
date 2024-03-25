@@ -1025,7 +1025,7 @@ M.setup = function()
 
     -- obsidian
     ObsidianBullet = { link = "GruvboxOrange" },
-    ObsidianRightArrow = { link = "GruvboxOrange" },
+    ObsidianRightArrow = { link = "texCmd" },
     ObsidianRefText = { link = "texOptSep" },
   }
 
