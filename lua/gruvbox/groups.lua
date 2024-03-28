@@ -177,10 +177,11 @@ M.setup = function()
     DiagnosticError = { link = "GruvboxRed" },
     DiagnosticSignError = { link = "GruvboxRedSign" },
     DiagnosticUnderlineError = {
-      fg = colors.purple,
+      fg = colors.red,
       bg = nil,
       reverse = config.invert_signs,
       bold = config.bold,
+      italic = config.italic,
       underline = config.underline,
     },
     DiagnosticWarn = { link = "GruvboxYellow" },
