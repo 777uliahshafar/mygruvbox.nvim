@@ -176,7 +176,7 @@ M.setup = function()
     -- LSP Diagnostic
     DiagnosticError = { link = "GruvboxRed" },
     DiagnosticSignError = { link = "GruvboxRedSign" },
-    DiagnosticUnderlineError = { link = "GruvboxRedUnderline" },
+    DiagnosticUnderlineError = { link = "SpellRare" },
     DiagnosticWarn = { link = "GruvboxYellow" },
     DiagnosticSignWarn = { link = "GruvboxYellowSign" },
     DiagnosticUnderlineWarn = { link = "GruvboxYellowUnderline" },
