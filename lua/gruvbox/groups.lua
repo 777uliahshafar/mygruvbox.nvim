@@ -180,6 +180,7 @@ M.setup = function()
       fg = colors.purple,
       bg = nil,
       reverse = config.invert_signs,
+      bold = config.bold,
       underline = config.underline,
     },
     DiagnosticWarn = { link = "GruvboxYellow" },
