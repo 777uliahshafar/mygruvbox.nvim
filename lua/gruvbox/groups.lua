@@ -181,7 +181,7 @@ M.setup = function()
       bg = nil,
       reverse = config.invert_signs,
       bold = config.bold,
-      italic = config.italic.comments,
+      italic = config.italic.strings,
       underline = config.underline,
     },
     DiagnosticWarn = { link = "GruvboxYellow" },
