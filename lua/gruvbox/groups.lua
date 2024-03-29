@@ -610,9 +610,15 @@ M.setup = function()
     NavicIconsTypeParameter = { link = "GruvboxRed" },
     NavicText = { link = "GruvboxWhite" },
     NavicSeparator = { link = "GruvboxWhite" },
+    --obsidian
+    ObsidianTodo = { link = "GruvboxGray" },
+    ObsidianDone = { link = "texEnvArgName" },
+    ObsidianRightArrow = { link = "texCmd" },
+    ObsidianRefText = { link = "texOptSep" },
+    ObsidianBullet = { link = "GruvboxOrange" },
     -- html
-    htmlTag = { link = "GruvboxOrangeBold" },
-    htmlEndTag = { link = "GruvboxOrangeBold" },
+    htmlTag = { link = "GruvboxAquaBold" },
+    htmlEndTag = { link = "GruvboxAquaBold" },
     htmlTagName = { link = "GruvboxBlue" },
     htmlArg = { link = "GruvboxOrange" },
     htmlTagN = { link = "GruvboxFg1" },
@@ -1037,13 +1043,6 @@ M.setup = function()
     texCmdInput = { link = "texCmdTitle" },
     texCmdBib = { link = "texCmdClass" },
     texCmdType = { link = "texCmd" },
-
-    -- obsidian
-    -- ObsidianTodo = { link = "GruvboxGray" },
-    -- ObsidianDone = { link = "texEnvArgName" },
-    -- ObsidianRightArrow = { link = "texCmd" },
-    ObsidianRefText = { link = "texOptSep" },
-    ObsidianBullet = { link = "GruvboxOrange" },
   }
 
   for group, hl in pairs(config.overrides) do
