@@ -611,8 +611,8 @@ M.setup = function()
     NavicText = { link = "GruvboxWhite" },
     NavicSeparator = { link = "GruvboxWhite" },
     -- html
-    htmlTag = { link = "GruvboxAquaBold" },
-    htmlEndTag = { link = "GruvboxAquaBold" },
+    htmlTag = { link = "GruvboxOrangeBold" },
+    htmlEndTag = { link = "GruvboxOrangeBold" },
     htmlTagName = { link = "GruvboxBlue" },
     htmlArg = { link = "GruvboxOrange" },
     htmlTagN = { link = "GruvboxFg1" },
@@ -1039,9 +1039,9 @@ M.setup = function()
     texCmdType = { link = "texCmd" },
 
     -- obsidian
-    ObsidianTodo = { link = "GruvboxGray" },
-    ObsidianDone = { link = "texEnvArgName" },
-    ObsidianRightArrow = { link = "texCmd" },
+    -- ObsidianTodo = { link = "GruvboxGray" },
+    -- ObsidianDone = { link = "texEnvArgName" },
+    -- ObsidianRightArrow = { link = "texCmd" },
     ObsidianRefText = { link = "texOptSep" },
     ObsidianBullet = { link = "GruvboxOrange" },
   }
