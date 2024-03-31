@@ -610,12 +610,7 @@ M.setup = function()
     NavicIconsTypeParameter = { link = "GruvboxRed" },
     NavicText = { link = "GruvboxWhite" },
     NavicSeparator = { link = "GruvboxWhite" },
-    --obsidian
-    ObsidianTodo = { link = "GruvboxGray" },
-    ObsidianDone = { link = "texEnvArgName" },
-    ObsidianRightArrow = { link = "texCmd" },
-    ObsidianRefText = { link = "texOptSep" },
-    ObsidianBullet = { link = "GruvboxOrange" },
+
     -- html
     htmlTag = { link = "GruvboxAquaBold" },
     htmlEndTag = { link = "GruvboxAquaBold" },
@@ -857,9 +852,9 @@ M.setup = function()
     markdownH4 = { link = "GruvboxPurpleBold" },
     markdownH5 = { link = "GruvboxGreenBold" },
     markdownH6 = { link = "GruvboxGreenBold" },
-    markdownCode = { link = "GruvboxAqua" },
-    markdownCodeBlock = { link = "GruvboxAqua" },
-    markdownCodeDelimiter = { link = "GruvboxAqua" },
+    markdownCode = { link = "GruvboxOrange" },
+    markdownCodeBlock = { link = "GruvboxOrange" },
+    markdownCodeDelimiter = { link = "GruvboxOrange" },
     markdownBlockquote = { link = "GruvboxGray" },
     markdownListMarker = { link = "GruvboxGray" },
     markdownOrderedListMarker = { link = "GruvboxGray" },
@@ -869,7 +864,7 @@ M.setup = function()
     markdownLinkDelimiter = { link = "GruvboxFg3" },
     markdownLinkTextDelimiter = { link = "GruvboxFg3" },
     markdownHeadingDelimiter = { link = "GruvboxOrange" },
-    markdownUrl = { link = "GruvboxPurple" },
+    markdownUrl = { link = "htmlLink" },
     markdownUrlTitleDelimiter = { link = "GruvboxGreen" },
     markdownLinkText = { fg = colors.gray, underline = config.underline },
     markdownIdDeclaration = { link = "markdownLinkText" },
@@ -1043,6 +1038,13 @@ M.setup = function()
     texCmdInput = { link = "texCmdTitle" },
     texCmdBib = { link = "texCmdClass" },
     texCmdType = { link = "texCmd" },
+
+    --obsidian
+    ObsidianTodo = { link = "GruvboxGray" },
+    ObsidianDone = { link = "texEnvArgName" },
+    ObsidianRightArrow = { link = "texCmd" },
+    ObsidianRefText = { link = "texOptSep" },
+    ObsidianBullet = { link = "GruvboxOrange" },
   }
 
   for group, hl in pairs(config.overrides) do
