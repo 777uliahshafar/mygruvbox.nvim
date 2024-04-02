@@ -629,7 +629,7 @@ M.setup = function()
     htmlArg = { link = "GruvboxOrange" },
     htmlTagN = { link = "GruvboxFg1" },
     htmlSpecialTagName = { link = "GruvboxBlue" },
-    htmlLink = { fg = colors.fg4, underline = config.underline },
+    htmlLink = { link = "GruvboxBlueUnderline" },
     htmlSpecialChar = { link = "GruvboxRed" },
     htmlBold = { fg = colors.fg5, bg = colors.bg0, bold = config.bold },
     htmlBoldUnderline = { fg = colors.fg0, bg = colors.bg0, bold = config.bold, underline = config.underline },
@@ -1051,11 +1051,11 @@ M.setup = function()
     texCmdType = { link = "texCmd" },
 
     --obsidian
-    -- ObsidianTodo = { link = "GruvboxGray" },
-    -- ObsidianDone = { link = "texEnvArgName" },
-    -- ObsidianRightArrow = { link = "texCmd" },
-    -- ObsidianRefText = { link = "texOptSep" },
-    -- ObsidianBullet = { link = "GruvboxOrange" },
+    ObsidianTodo = { link = "GruvboxGray" },
+    ObsidianDone = { link = "texEnvArgName" },
+    ObsidianRightArrow = { link = "texCmd" },
+    ObsidianRefText = { link = "@markup.link.label.markdown_inline" },
+    ObsidianBullet = { link = "@markup.list.markdown" },
   }
 
   for group, hl in pairs(config.overrides) do
