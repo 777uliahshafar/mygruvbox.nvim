@@ -419,8 +419,6 @@ M.setup = function()
     -- @spell   ; for defining regions to be spellchecked
     -- @nospell ; for defining regions that should NOT be spellchecked
 
-    ["@spell"] = { link = "GruvboxBlueUnderline" },
-    ["@nospell"] = { link = "GruvboxGreen" },
     --
     -- Markdown
     ["@markup.heading.1.markdown"] = { link = "htmlH1" },
