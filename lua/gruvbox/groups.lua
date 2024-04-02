@@ -109,7 +109,7 @@ M.setup = function()
     WinBarNC = { fg = colors.fg3, bg = colors.bg1 },
     WinSeparator = config.transparent_mode and { fg = colors.bg3, bg = nil } or { fg = colors.bg3, bg = colors.bg0 },
     WildMenu = { fg = colors.fg6, bg = colors.bg6, bold = config.bold, reverse = config.inverse },
-    Directory = { link = "GruvboxBlueBold" },
+    Directory = { link = "GruvboxBlue" },
     Title = { link = "GruvboxGreenBold" },
     ErrorMsg = { fg = colors.bg0, bg = colors.red, bold = config.bold },
     MoreMsg = { link = "GruvboxYellowBold" },
@@ -455,7 +455,7 @@ M.setup = function()
     -- nvim-tree
     NvimTreeSymlink = { fg = colors.neutral_aqua },
     NvimTreeRootFolder = { fg = colors.neutral_purple, bold = true },
-    NvimTreeFolderIcon = { fg = colors.neutral_blue, bold = false },
+    NvimTreeFolderIcon = { fg = colors.neutral_blue, bold = true },
     NvimTreeFileIcon = { fg = colors.light2 },
     NvimTreeExecFile = { fg = colors.neutral_green, bold = true },
     NvimTreeOpenedFile = { fg = colors.bright_red, bold = true },
