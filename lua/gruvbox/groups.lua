@@ -1054,7 +1054,7 @@ M.setup = function()
     ObsidianTodo = { link = "GruvboxGray" },
     ObsidianDone = { link = "texEnvArgName" },
     ObsidianRightArrow = { link = "texCmd" },
-    ObsidianRefText = { link = "@markup.link.label.markdown_inline" },
+    ObsidianRefText = { link = "GruvboxBlueUnderline" },
     ObsidianBullet = { link = "@markup.list.markdown" },
   }
 
