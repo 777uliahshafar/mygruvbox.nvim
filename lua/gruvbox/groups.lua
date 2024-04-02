@@ -1055,10 +1055,10 @@ M.setup = function()
 
     --obsidian
     ObsidianTodo = { link = "GruvboxGray" },
-    ObsidianDone = { link = "texEnvArgName" },
-    ObsidianRightArrow = { link = "texCmd" },
-    ObsidianRefText = { link = "GruvboxBlueUnderline" },
-    ObsidianBullet = { link = "@markup.list.markdown" },
+    ObsidianDone = { link = "GruvboxAqua" },
+    ObsidianRightArrow = { link = "GruvboxGreen" },
+    ObsidianRefText = { link = "GruvboxBlue" },
+    ObsidianBullet = { link = "GruvboxOrange" },
   }
 
   for group, hl in pairs(config.overrides) do
