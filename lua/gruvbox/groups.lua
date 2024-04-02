@@ -430,7 +430,7 @@ M.setup = function()
     ["@keyword.directive.markdown"] = { link = "GruvboxBlue" },
     ["@markup.link.label.markdown_inline"] = { link = "htmlLink" },
     ["@markup.list.markdown"] = { link = "GruvboxOrange" },
-    ["@nospell.markdown_inline"] = { link = "GruvboxBlueUnderline" },
+    ["@nospell.markdown_inline"] = { link = "GruvboxBlue" },
     ["@spell.markdown_inline"] = { link = "GruvboxGreen" },
 
     -- Treesitter
