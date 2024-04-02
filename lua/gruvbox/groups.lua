@@ -627,7 +627,7 @@ M.setup = function()
     htmlArg = { link = "GruvboxOrange" },
     htmlTagN = { link = "GruvboxFg1" },
     htmlSpecialTagName = { link = "GruvboxBlue" },
-    htmlLink = { link = "GruvboxBlueUnderline" },
+    htmlLink = { link = "GruvboxBlue" },
     htmlSpecialChar = { link = "GruvboxRed" },
     htmlBold = { fg = colors.fg5, bg = colors.bg0, bold = config.bold },
     htmlBoldUnderline = { fg = colors.fg0, bg = colors.bg0, bold = config.bold, underline = config.underline },
