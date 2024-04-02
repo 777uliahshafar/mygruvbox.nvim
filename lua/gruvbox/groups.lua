@@ -455,7 +455,7 @@ M.setup = function()
     -- nvim-tree
     NvimTreeSymlink = { fg = colors.neutral_aqua },
     NvimTreeRootFolder = { fg = colors.neutral_purple, bold = true },
-    NvimTreeFolderIcon = { fg = colors.neutral_blue, bold = true },
+    NvimTreeFolderIcon = { fg = colors.neutral_blue, bold = false },
     NvimTreeFileIcon = { fg = colors.light2 },
     NvimTreeExecFile = { fg = colors.neutral_green, bold = true },
     NvimTreeOpenedFile = { fg = colors.bright_red, bold = true },
