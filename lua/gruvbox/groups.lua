@@ -173,12 +173,6 @@ M.setup = function()
     SpellLocal = { fg = colors.aqua, bg = nil, italic = config.italic.comments, reverse = config.invert_signs },
     SpellRare = { fg = colors.purple, bg = nil, reverse = config.invert_signs },
     Whitespace = { fg = colors.fg4 },
-    --obsidian
-    ObsidianTodo = { link = "GruvboxGray" },
-    ObsidianDone = { link = "GruvboxAqua" },
-    ObsidianRightArrow = { link = "GruvboxGreen" },
-    ObsidianRefText = { link = "GruvboxBlue" },
-    ObsidianBullet = { link = "GruvboxOrange" },
     -- LSP Diagnostic
     DiagnosticError = { link = "GruvboxRed" },
     DiagnosticSignError = { link = "GruvboxRedSign" },
