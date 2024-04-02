@@ -428,6 +428,12 @@ M.setup = function()
     ["@markup.heading.5.markdown"] = { link = "htmlH5" },
     ["@markup.heading.6.markdown"] = { link = "htmlH6" },
     ["@keyword.directive.markdown"] = { link = "GruvboxBlue" },
+    ["@markup.link.label.markdown_inline"] = { link = "htmlLink" },
+    ["@markup.list.markdown"] = { link = "GruvboxOrange" },
+    ["@nospell.markdown_inline"] = { link = "GruvboxBlue" },
+    ["@spell.markdown_inline"] = { link = "GruvboxGreen" },
+    ["@markup.quote.markdown"] = { link = "GruvboxGray" },
+
     -- Treesitter
     -- See `:help treesitter`
     -- Those are not part of the nvim-treesitter
@@ -627,7 +633,7 @@ M.setup = function()
     htmlArg = { link = "GruvboxOrange" },
     htmlTagN = { link = "GruvboxFg1" },
     htmlSpecialTagName = { link = "GruvboxBlue" },
-    htmlLink = { link = "GruvboxBlue" },
+    htmlLink = { link = "GruvboxBlueUnderline" },
     htmlSpecialChar = { link = "GruvboxRed" },
     htmlBold = { fg = colors.fg5, bg = colors.bg0, bold = config.bold },
     htmlBoldUnderline = { fg = colors.fg0, bg = colors.bg0, bold = config.bold, underline = config.underline },
