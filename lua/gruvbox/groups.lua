@@ -1051,11 +1051,11 @@ M.setup = function()
     texCmdType = { link = "texCmd" },
 
     --obsidian
-    ObsidianTodo = { link = "GruvboxGray" },
-    ObsidianDone = { link = "texEnvArgName" },
-    ObsidianRightArrow = { link = "texCmd" },
-    ObsidianRefText = { link = "texOptSep" },
-    ObsidianBullet = { link = "GruvboxOrange" },
+    -- ObsidianTodo = { link = "GruvboxGray" },
+    -- ObsidianDone = { link = "texEnvArgName" },
+    -- ObsidianRightArrow = { link = "texCmd" },
+    -- ObsidianRefText = { link = "texOptSep" },
+    -- ObsidianBullet = { link = "GruvboxOrange" },
   }
 
   for group, hl in pairs(config.overrides) do
