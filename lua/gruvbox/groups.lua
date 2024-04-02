@@ -432,6 +432,7 @@ M.setup = function()
     ["@markup.list.markdown"] = { link = "GruvboxOrange" },
     ["@nospell.markdown_inline"] = { link = "GruvboxBlue" },
     ["@spell.markdown_inline"] = { link = "GruvboxGreen" },
+    ["@markup.quote.markdown "] = { link = "GruvboxGray" },
 
     -- Treesitter
     -- See `:help treesitter`
@@ -1052,13 +1053,6 @@ M.setup = function()
     texCmdInput = { link = "texCmdTitle" },
     texCmdBib = { link = "texCmdClass" },
     texCmdType = { link = "texCmd" },
-
-    --obsidian
-    ObsidianTodo = { link = "GruvboxGray" },
-    ObsidianDone = { link = "GruvboxAqua" },
-    ObsidianRightArrow = { link = "GruvboxGreen" },
-    ObsidianRefText = { link = "GruvboxBlue" },
-    ObsidianBullet = { link = "GruvboxOrange" },
   }
 
   for group, hl in pairs(config.overrides) do
