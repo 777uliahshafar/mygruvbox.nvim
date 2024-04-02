@@ -418,6 +418,17 @@ M.setup = function()
     --
     -- @spell   ; for defining regions to be spellchecked
     -- @nospell ; for defining regions that should NOT be spellchecked
+    --
+    -- Markdown
+    ["@markup.heading.1.markdown"] = { link = "htmlH1" },
+    ["@markup.heading.2.markdown"] = { link = "htmlH2" },
+    ["@markup.heading.3.markdown"] = { link = "htmlH3" },
+    ["@markup.heading.4.markdown"] = { link = "htmlH4" },
+    ["@markup.heading.5.markdown"] = { link = "htmlH5" },
+    ["@markup.heading.6.markdown"] = { link = "htmlH6" },
+    ["@keyword.directive.markdown"] = { link = "GruvboxBlue" },
+    ["@markup.link.label.markdown_inline"] = { link = "htmlLink" },
+    ["@markup.list.markdown"] = { link = "GruvboxOrange" },
 
     -- Treesitter
     -- See `:help treesitter`
