@@ -433,12 +433,12 @@ M.setup = function()
     -- ["@nospell.markdown_inline"] = { link = "GruvboxBlue" },
     -- ["@spell.markdown_inline"] = { link = "GruvboxGreen" },
     ["@markup.quote.markdown"] = { link = "GruvboxGray" },
-    ObsidianRefText = { link = "@markup.link.label.markdown_inline" },
-    ObsidianTodo = { link = "@markup.link.label.markdown_inline" },
-    ObsidianDone = { link = "@markup.link.label.markdown_inline" },
-    ObsidianRightArrow = { link = "@markup.link.label.markdown_inline" },
-    ObsidianTilde = { link = "@markup.link.label.markdown_inline" },
-    ObsidianBullet = { link = "@markup.link.label.markdown_inline" },
+    ObsidianRefText = { link = "GruvboxOrange" },
+    ObsidianTodo = { link = "GruvboxOrange" },
+    ObsidianDone = { link = "GruvboxOrange" },
+    ObsidianRightArrow = { link = "GruvboxOrange" },
+    ObsidianTilde = { link = "GruvboxOrange" },
+    ObsidianBullet = { link = "GruvboxOrange" },
 
     -- Treesitter
     -- See `:help treesitter`
