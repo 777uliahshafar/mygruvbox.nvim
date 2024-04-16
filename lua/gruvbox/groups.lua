@@ -433,6 +433,8 @@ M.setup = function()
     -- ["@spell.markdown_inline"] = { link = "GruvboxGreen" },
     ["@markup.quote.markdown"] = { link = "GruvboxGray" },
 
+    ["@markup.strong.markdown_inline"] = { link = "@text.strong" },
+
     -- Treesitter
     -- See `:help treesitter`
     -- Those are not part of the nvim-treesitter
