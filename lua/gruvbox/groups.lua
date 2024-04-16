@@ -428,11 +428,17 @@ M.setup = function()
     ["@markup.heading.5.markdown"] = { link = "htmlH5" },
     ["@markup.heading.6.markdown"] = { link = "htmlH6" },
     ["@keyword.directive.markdown"] = { link = "GruvboxBlue" },
-    ["@markup.link.label.markdown_inline"] = { link = "GruvboxBlue" },
+    ["@markup.link.label.markdown_inline"] = { fg = colors.blue, underline = config.underline },
     ["@markup.list.markdown"] = { link = "GruvboxOrange" },
     -- ["@nospell.markdown_inline"] = { link = "GruvboxBlue" },
     -- ["@spell.markdown_inline"] = { link = "GruvboxGreen" },
     ["@markup.quote.markdown"] = { link = "GruvboxGray" },
+    ObsidianRefText = { link = "@markup.link.label.markdown_inline" },
+    ObsidianTodo = { link = "@markup.link.label.markdown_inline" },
+    ObsidianDone = { link = "@markup.link.label.markdown_inline" },
+    ObsidianRightArrow = { link = "@markup.link.label.markdown_inline" },
+    ObsidianTilde = { link = "@markup.link.label.markdown_inline" },
+    ObsidianBullet = { link = "@markup.link.label.markdown_inline" },
 
     -- Treesitter
     -- See `:help treesitter`
