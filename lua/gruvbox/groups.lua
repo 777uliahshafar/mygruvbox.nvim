@@ -419,7 +419,6 @@ M.setup = function()
     -- @spell   ; for defining regions to be spellchecked
     -- @nospell ; for defining regions that should NOT be spellchecked
 
-    --
     -- Markdown
     ["@markup.heading.1.markdown"] = { link = "htmlH1" },
     ["@markup.heading.2.markdown"] = { link = "htmlH2" },
@@ -433,12 +432,6 @@ M.setup = function()
     -- ["@nospell.markdown_inline"] = { link = "GruvboxBlue" },
     -- ["@spell.markdown_inline"] = { link = "GruvboxGreen" },
     ["@markup.quote.markdown"] = { link = "GruvboxGray" },
-    ObsidianRefText = { link = "GruvboxOrange" },
-    ObsidianTodo = { link = "GruvboxOrange" },
-    ObsidianDone = { link = "GruvboxOrange" },
-    ObsidianRightArrow = { link = "GruvboxOrange" },
-    ObsidianTilde = { link = "GruvboxOrange" },
-    ObsidianBullet = { link = "GruvboxOrange" },
 
     -- Treesitter
     -- See `:help treesitter`
@@ -639,7 +632,7 @@ M.setup = function()
     htmlArg = { link = "GruvboxOrange" },
     htmlTagN = { link = "GruvboxFg1" },
     htmlSpecialTagName = { link = "GruvboxBlue" },
-    htmlLink = { link = "GruvboxBlueUnderline" },
+    htmlLink = { fg = colors.blue, underline = config.underline },
     htmlSpecialChar = { link = "GruvboxRed" },
     htmlBold = { fg = colors.fg5, bg = colors.bg0, bold = config.bold },
     htmlBoldUnderline = { fg = colors.fg0, bg = colors.bg0, bold = config.bold, underline = config.underline },
