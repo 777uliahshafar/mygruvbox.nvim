@@ -470,9 +470,9 @@ M.setup = function()
     GitSignsChange = { link = "GruvboxAquaSign" },
     GitSignsDelete = { link = "GruvboxRedSign" },
     -- nvim-tree
-    NvimTreeSymlink = { fg = colors.neutral_aqua },
+    NvimTreeSymlink = { fg = colors.green, bold = config.bold },
     NvimTreeRootFolder = { fg = colors.neutral_purple, bold = true },
-    NvimTreeFolderIcon = { fg = colors.neutral_blue, bold = true },
+    NvimTreeFolderIcon = { fg = colors.gray, bold = true },
     NvimTreeFileIcon = { fg = colors.light2 },
     NvimTreeExecFile = { fg = colors.neutral_green, bold = true },
     NvimTreeOpenedFile = { fg = colors.bright_red, bold = true },
