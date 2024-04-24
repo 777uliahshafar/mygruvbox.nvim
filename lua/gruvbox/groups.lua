@@ -472,7 +472,7 @@ M.setup = function()
     -- nvim-tree
     NvimTreeSymlink = { fg = colors.green, bold = config.bold },
     NvimTreeRootFolder = { fg = colors.neutral_purple, bold = true },
-    NvimTreeFolderIcon = { fg = colors.gray, bold = true },
+    NvimTreeFolderIcon = { fg = colors.yellow, bold = true },
     NvimTreeFileIcon = { fg = colors.light2 },
     NvimTreeExecFile = { fg = colors.neutral_green, bold = true },
     NvimTreeOpenedFile = { fg = colors.bright_red, bold = true },
@@ -486,6 +486,8 @@ M.setup = function()
     NvimTreeGitNew = { fg = colors.neutral_yellow },
     NvimTreeGitDeleted = { fg = colors.neutral_red },
     NvimTreeWindowPicker = { bg = colors.faded_aqua },
+    NvimTreeFolderName = { fg = colors.yellow },
+
     -- termdebug
     debugPC = { bg = colors.faded_blue },
     debugBreakpoint = { link = "GruvboxRedSign" },
