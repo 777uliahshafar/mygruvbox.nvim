@@ -487,8 +487,9 @@ M.setup = function()
     NvimTreeGitNew = { fg = colors.neutral_yellow },
     NvimTreeGitDeleted = { fg = colors.neutral_red },
     NvimTreeWindowPicker = { bg = colors.faded_aqua },
-    NvimTreeFolderName = { fg = colors.neutral_blue },
-    NvimTreeOpenedFolderName = { fg = colors.neutral_blue, bold = true },
+    NvimTreeModifiedIcon = { fg = colors.bright_green, bold = true },
+    NvimTreeFolderName = { fg = colors.blue },
+    NvimTreeOpenedFolderName = { fg = colors.blue, bold = true },
 
     -- termdebug
     debugPC = { bg = colors.faded_blue },
