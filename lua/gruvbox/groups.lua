@@ -479,7 +479,7 @@ M.setup = function()
     NvimTreeOpenedFile = { fg = colors.bright_red, bold = true },
     NvimTreeSpecialFile = { fg = colors.neutral_yellow, bold = true, underline = true },
     NvimTreeImageFile = { fg = colors.neutral_purple },
-    NvimTreeIndentMarker = { link = "NvimTreeOpenedFolderIcon" },
+    NvimTreeIndentMarker = { fg = colors.neutral_blue },
     NvimTreeGitDirty = { fg = colors.neutral_yellow },
     NvimTreeGitStaged = { fg = colors.neutral_yellow },
     NvimTreeGitMerge = { fg = colors.neutral_purple },
