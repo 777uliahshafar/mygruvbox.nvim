@@ -435,6 +435,7 @@ M.setup = function()
 
     ["@markup.strong.markdown_inline"] = { link = "@text.strong" },
     ["@markup.italic.markdown_inline"] = { link = "@text.emphasis" },
+    ["@markup.raw.block.markdown"] = { link = "GruvboxGray" },
 
     -- Treesitter
     -- See `:help treesitter`
