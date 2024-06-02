@@ -435,7 +435,7 @@ M.setup = function()
 
     ["@markup.strong.markdown_inline"] = { link = "@text.strong" },
     ["@markup.italic.markdown_inline"] = { link = "@text.emphasis" },
-    ["@markup.raw.block.markdown"] = { fg = colors.chunk },
+    ["@markup.raw.block.markdown"] = { fg = colors.bgreen },
 
     -- Treesitter
     -- See `:help treesitter`
