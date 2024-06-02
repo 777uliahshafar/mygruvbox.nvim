@@ -50,7 +50,7 @@ M.setup = function()
     GruvboxRed = { fg = colors.red },
     GruvboxRedBold = { fg = colors.red, bold = config.bold },
     GruvboxGreen = { fg = colors.green },
-    GruvboxBGreen = { fg = colors.bgreen },
+    GruvboxForest = { fg = colors.forest },
     GruvboxGreenBold = { fg = colors.green, bold = config.bold },
     GruvboxYellow = { fg = colors.yellow },
     GruvboxYellowBold = { fg = colors.yellow, bold = config.bold },
@@ -436,8 +436,8 @@ M.setup = function()
 
     ["@markup.strong.markdown_inline"] = { link = "@text.strong" },
     ["@markup.italic.markdown_inline"] = { link = "@text.emphasis" },
-    ["@markup.raw.block.markdown"] = { fg = "GruvboxBGreen" },
-    ["@markup.raw.markdown_inline"] = { fg = "GruvboxBGreen" },
+    ["@markup.raw.block.markdown"] = { link = "GruvboxForest" },
+    ["@markup.raw.markdown_inline"] = { link = "GruvboxForest" },
 
     -- Treesitter
     -- See `:help treesitter`
