@@ -50,7 +50,7 @@ M.setup = function()
     GruvboxRed = { fg = colors.red },
     GruvboxRedBold = { fg = colors.red, bold = config.bold },
     GruvboxGreen = { fg = colors.green },
-    GruvboxiBGreen = { fg = colors.bgreen },
+    GruvboxBGreen = { fg = colors.bgreen },
     GruvboxGreenBold = { fg = colors.green, bold = config.bold },
     GruvboxYellow = { fg = colors.yellow },
     GruvboxYellowBold = { fg = colors.yellow, bold = config.bold },
