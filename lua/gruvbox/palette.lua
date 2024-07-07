@@ -55,7 +55,7 @@ M.colors = {
   faded_orange = "#af3a03",
   faded_choco = "#232526",
   faded_chunk = "#a89984",
-  gray = "#928374",
+  gray = "#a6a69c",
 }
 
 M.get_base_colors = function(bg, contrast)
