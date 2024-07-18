@@ -668,7 +668,7 @@ M.setup = function()
     htmlH4 = { link = "markdownH4" },
     htmlH5 = { link = "markdownH5" },
     htmlH6 = { link = "markdownH6" },
-    mkdBlockquote = { link = "GruvboxGray" },
+    mkdBlockquote = { link = "GruvboxForest" },
 
     -- xml
     xmlTag = { link = "GruvboxAquaBold" },
