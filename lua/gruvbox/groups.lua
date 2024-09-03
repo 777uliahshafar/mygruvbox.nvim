@@ -1056,7 +1056,7 @@ M.setup = function()
     texCmdTitle = { link = "texCmd" },
     texCmdItem = { link = "texCmd" },
     texCmdRef = { link = "texCmdEnv" },
-    texPartArgTitle = { link = "texCmdEnv" },
+    texPartArgTitle = { link = "texOptSep" },
     texRefArg = { link = "texCmd" },
     texCmdPart = { link = "texCmdEnv" },
     texCmdMath = { link = "texCmdEnv" },
