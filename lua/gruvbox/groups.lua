@@ -1050,9 +1050,9 @@ M.setup = function()
     texOptSep = { link = "GruvboxBlue" },
     texCmdEnv = { link = "GruvboxViolet" },
     texCmd = { link = "GruvboxOlive" },
-    texEnvArgName = { link = "GruvboxGreen" },
+    texEnvArgName = { link = "GruvboxRed" },
     texCmdClass = { link = "GruvboxPurple" },
-    texPartArgTitle = { link = "GruvboxAqua" },
+    texPartArgTitle = { link = "GruvboxGreen" },
 
     texCmdTitle = { link = "texCmd" },
     texCmdItem = { link = "texCmd" },
