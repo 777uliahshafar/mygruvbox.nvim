@@ -47,6 +47,7 @@ M.setup = function()
     GruvboxBg6 = { fg = colors.bg6 },
     GruvboxBg7 = { fg = colors.bg7 },
     GruvboxBg8 = { fg = colors.bg8 },
+    GruvboxOlive = { fg = colors.olive },
     GruvboxRed = { fg = colors.red },
     GruvboxRedBold = { fg = colors.red, bold = config.bold },
     GruvboxGreen = { fg = colors.green },
@@ -1047,7 +1048,7 @@ M.setup = function()
     -- Tex syntax
     texOptSep = { link = "GruvboxBlue" },
     texCmdEnv = { link = "GruvboxRed" },
-    texCmd = { link = "GruvboxGreen" },
+    texCmd = { link = "GruvboxOlive" },
     texEnvArgName = { link = "GruvboxAqua" },
     texCmdClass = { link = "GruvboxPurple" },
 
