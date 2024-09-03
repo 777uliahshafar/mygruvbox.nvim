@@ -1048,7 +1048,7 @@ M.setup = function()
 
     -- Tex syntax
     texOptSep = { link = "GruvboxBlue" },
-    texCmdEnv = { link = "GruvboxRed" },
+    texCmdEnv = { link = "GruvboxViolet" },
     texCmd = { link = "GruvboxOlive" },
     texEnvArgName = { link = "GruvboxAqua" },
     texCmdClass = { link = "GruvboxPurple" },
@@ -1056,7 +1056,7 @@ M.setup = function()
     texCmdTitle = { link = "texCmd" },
     texCmdItem = { link = "texCmd" },
     texCmdRef = { link = "texCmdEnv" },
-    texPartArgTitle = { link = "GruvboxViolet" },
+    texPartArgTitle = { link = "GruvboxRed" },
     texRefArg = { link = "texCmd" },
     texCmdPart = { link = "texCmdEnv" },
     texCmdMath = { link = "texCmdEnv" },
