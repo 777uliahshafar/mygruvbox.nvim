@@ -1055,7 +1055,7 @@ M.setup = function()
     texCmdTitle = { link = "texCmd" },
     texCmdItem = { link = "texCmd" },
     texCmdRef = { link = "texCmdEnv" },
-    texArg = { link = "GruvboxOlive" },
+    texPartArgTitle = { link = "GruvboxOlive" },
     texRefArg = { link = "texCmd" },
     texCmdPart = { link = "texCmdEnv" },
     texCmdMath = { link = "texCmdEnv" },
