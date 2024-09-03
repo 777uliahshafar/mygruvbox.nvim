@@ -1052,11 +1052,11 @@ M.setup = function()
     texCmd = { link = "GruvboxOlive" },
     texEnvArgName = { link = "GruvboxRed" },
     texCmdClass = { link = "GruvboxPurple" },
-    texPartArgTitle = { link = "GruvboxGreen" },
 
     texCmdTitle = { link = "texCmd" },
     texCmdItem = { link = "texCmd" },
     texCmdRef = { link = "texCmdEnv" },
+    texPartArgTitle = { link = "texOptSep" },
     texRefArg = { link = "texCmd" },
     texCmdPart = { link = "texCmdEnv" },
     texCmdMath = { link = "texCmdEnv" },
