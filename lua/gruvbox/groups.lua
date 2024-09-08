@@ -1066,8 +1066,6 @@ M.setup = function()
     texCmdInput = { link = "texCmdTitle" },
     texCmdBib = { link = "texCmdClass" },
     texCmdType = { link = "texCmd" },
-    texMathSuperSub = { link = "Normal" },
-    texMathOper = { link = "Normal" },
   }
 
   for group, hl in pairs(config.overrides) do
