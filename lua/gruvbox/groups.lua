@@ -1066,7 +1066,6 @@ M.setup = function()
     texCmdInput = { link = "texCmdTitle" },
     texCmdBib = { link = "texCmdClass" },
     texCmdType = { link = "texCmd" },
-    texMathOper = { link = "NormalNC" },
     texMathSuperSub = { link = "Normal" },
   }
 
