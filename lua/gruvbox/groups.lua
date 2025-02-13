@@ -120,7 +120,7 @@ M.setup = function()
     Question = { link = "GruvboxOrangeBold" },
     WarningMsg = { link = "GruvboxRedBold" },
     LineNr = { fg = colors.fg4 },
-    SignColumn = config.transparent_mode and { fg = colors.fg4, bg = nil } or { fg = colors.fg4, bg = colors.bg0 },
+    SignColumn = config.transparent_mode and { fg = colors.fg4, bg = nil } or { fg = colors.fg4 },
     Folded = { fg = colors.fg5, bg = colors.bg10, italic = config.italic.folds },
     FoldColumn = config.transparent_mode and { fg = colors.gray, bg = nil } or { fg = colors.gray, bg = colors.bg10 },
     Cursor = { reverse = config.inverse },
@@ -1040,7 +1040,7 @@ M.setup = function()
     TSRainbowCyan = { fg = colors.cyan },
 
     -- Marks
-    MarkSignHL = config.transparent_mode and { fg = colors.gray, bg = nil } or { fg = colors.fg7, bg = colors.choco },
+    MarkSignHL = config.transparent_mode and { fg = colors.gray, bg = nil } or { fg = colors.fg7, bg = colors.bg0 },
     MarkSignNumHL = { fg = nil, bg = nil },
 
     --Lazy plugin manager
