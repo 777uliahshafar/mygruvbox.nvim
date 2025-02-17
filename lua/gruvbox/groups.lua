@@ -875,7 +875,7 @@ M.setup = function()
     markdownH1 = { link = "GruvboxOrangeBold" },
     markdownH2 = { link = "GruvboxAquaBold" },
     markdownH3 = { link = "GruvboxPurpleBold" },
-    markdownH4 = { link = "GruvboxGrayBold" },
+    markdownH4 = { link = "GruvboxGreen" },
     markdownH5 = { link = "GruvboxOrange" },
     markdownH6 = { link = "GruvboxPurple" },
     markdownCode = { link = "GruvboxOrange" },
