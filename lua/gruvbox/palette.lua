@@ -39,6 +39,7 @@ M.colors = {
   bright_aqua = "#8ec07c",
   bright_orange = "#fe8019",
   bright_choco = "#bdae93",
+  bright_chocolate = "#232526",
   bright_chunk = "#5c6370",
   neutral_red = "#cc241d",
   neutral_green = "#98971a",
@@ -58,6 +59,7 @@ M.colors = {
   faded_aqua = "#427b58",
   faded_orange = "#af3a03",
   faded_choco = "#232526",
+  faded_chocolate = "#bdae93",
   faded_chunk = "#a89984",
   gray = "#a6a69c",
 }
