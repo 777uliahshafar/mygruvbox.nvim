@@ -151,7 +151,7 @@ M.setup = function()
     PreProc = { link = "GruvboxAqua" },
     Include = { link = "GruvboxAqua" },
     Define = { link = "GruvboxAqua" },
-    -- Delimiter = { fg = colors.fg7 },
+    Delimiter = { fg = colors.fg7 },
     Macro = { link = "GruvboxAqua" },
     PreCondit = { link = "GruvboxAqua" },
     Constant = { link = "GruvboxPurple" },
@@ -1054,7 +1054,7 @@ M.setup = function()
 
     -- Tex syntax
     texOptSep = { link = "GruvboxBlue" },
-    texCmdEnv = { link = "GruvboxViolet" },
+    texCmdEnv = { fg = colors.violet, bold = config.bold },
     texCmd = { link = "GruvboxOlive" },
     texEnvArgName = { link = "GruvboxAqua" },
     texCmdClass = { link = "GruvboxPurple" },
