@@ -151,7 +151,7 @@ M.setup = function()
     PreProc = { link = "GruvboxAqua" },
     Include = { link = "GruvboxAqua" },
     Define = { link = "GruvboxAqua" },
-    Delimiter = { fg = colors.fg7 },
+    -- Delimiter = { fg = colors.fg7 },
     Macro = { link = "GruvboxAqua" },
     PreCondit = { link = "GruvboxAqua" },
     Constant = { link = "GruvboxPurple" },
