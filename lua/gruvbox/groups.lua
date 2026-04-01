@@ -49,6 +49,7 @@ M.setup = function()
     GruvboxBg8 = { fg = colors.bg8 },
     GruvboxViolet = { fg = colors.violet },
     GruvboxOlive = { fg = colors.olive },
+    GruvboxOliveBold = { fg = colors.olive, bold = config.bold },
     GruvboxRed = { fg = colors.red },
     GruvboxRedBold = { fg = colors.red, bold = config.bold },
     GruvboxGreen = { fg = colors.green },
