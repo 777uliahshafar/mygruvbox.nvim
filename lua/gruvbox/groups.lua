@@ -881,7 +881,7 @@ M.setup = function()
     markdownBoldItalic = { fg = colors.fg5, bold = config.bold, italic = true },
     markdownH1 = { link = "GruvboxOrangeBold" },
     markdownH2 = { link = "GruvboxAquaBold" },
-    markdownH3 = { link = "GruvboxOliveBold" },
+    markdownH3 = { link = "GruvboxForestBold" },
     markdownH4 = { link = "GruvboxGreen" },
     markdownH5 = { link = "GruvboxOrange" },
     markdownH6 = { link = "GruvboxPurple" },
