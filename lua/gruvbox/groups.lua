@@ -441,6 +441,8 @@ M.setup = function()
     ["@markup.list.markdown"] = { link = "GruvboxOrange" },
     -- ["@nospell.markdown_inline"] = { link = "GruvboxBlue" },
     -- ["@spell.markdown_inline"] = { link = "GruvboxGreen" },
+    --
+    ["@spell.markdown"] = { link = "@text.emphasis" },
     ["@markup.quote.markdown"] = { link = "GruvboxForest" },
 
     ["@markup.strong.markdown_inline"] = { link = "@text.strong" },
