@@ -442,7 +442,7 @@ M.setup = function()
     -- ["@nospell.markdown_inline"] = { link = "GruvboxBlue" },
     -- ["@spell.markdown_inline"] = { link = "GruvboxGreen" },
     --
-    ["@spell.markdown"] = { link = "@text.emphasis" },
+    -- ["@spell.markdown"] = { link = "@text.emphasis" },
     ["@markup.quote.markdown"] = { link = "GruvboxForest" },
 
     ["@markup.strong.markdown_inline"] = { link = "@text.strong" },
@@ -1075,6 +1075,9 @@ M.setup = function()
     texCmdInput = { link = "texCmdTitle" },
     texCmdBib = { link = "texCmdClass" },
     texCmdType = { link = "texCmd" },
+
+    -- Obsidian
+    ObsidianTag = { link = "Macro" },
   }
 
   for group, hl in pairs(config.overrides) do
