@@ -1075,6 +1075,9 @@ M.setup = function()
     texCmdInput = { link = "texCmdTitle" },
     texCmdBib = { link = "texCmdClass" },
     texCmdType = { link = "texCmd" },
+
+    -- Obsidian
+    ObsidianTag = { link = "@text.emphasis" },
   }
 
   for group, hl in pairs(config.overrides) do
