@@ -439,7 +439,7 @@ M.setup = function()
     ["@keyword.directive.markdown"] = { link = "GruvboxBlue" },
     ["@markup.link.label.markdown_inline"] = { fg = colors.blue },
     ["@markup.list.markdown"] = { link = "GruvboxOrange" },
-    ["@nospell.markdown_inline"] = { link = "GruvboxBlueUnderline" },
+    ["@nospell.markdown_inline"] = { fg = colors.blue, underline = config.underline },
     -- ["@spell.markdown_inline"] = { link = "GruvboxGreen" },
     --
     -- ["@spell.markdown"] = { link = "@text.emphasis" },
