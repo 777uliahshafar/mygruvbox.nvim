@@ -438,7 +438,7 @@ M.setup = function()
     ["@markup.heading.6.markdown"] = { link = "htmlH6" },
     ["@keyword.directive.markdown"] = { link = "GruvboxBlue" },
     ["@markup.link.label.markdown_inline"] = { fg = colors.blue },
-    ["@markup.list.markdown"] = { link = "GruvboxOrange" },
+    ["@markup.list.markdown"] = { link = "GruvboxBlue" },
     ["@nospell.markdown_inline"] = { fg = colors.blue, underline = config.underline },
     -- ["@spell.markdown_inline"] = { link = "GruvboxGreen" },
     --
